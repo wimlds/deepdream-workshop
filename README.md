@@ -47,7 +47,7 @@ pip install -U scipy
 pip install -U ipython
 pip install -U jupyter
 ```
-There are a few other Python dependencies for Pycaffe (Python API for Caffe), but we will install those below.
+There are a few other Python dependencies for pycaffe (Python API for Caffe), but we will install those below.
 
 ### Caffe
 
@@ -161,6 +161,7 @@ If the tests go well, you will see output that ends with the following lines:
 [  PASSED  ] 846 tests.
 ```
 
+#### pycaffe
 Finally, let's build the Python API:
 ```bash
 make pycaffe
