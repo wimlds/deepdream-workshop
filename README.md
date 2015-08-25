@@ -70,7 +70,7 @@ wget http://developer.download.nvidia.com/compute/cuda/7_0/Prod/network_installe
 open cuda_7.0.29_mac_network.dmg
 ```
 
-
+#### Caffe software dependencies
 According to the Caffe authors, it will be best if the following vars are not set:
 ```bash
 echo $LD_LIBRARY_PATH
