@@ -60,6 +60,10 @@ Installation instructions for OS X [here](http://caffe.berkeleyvision.org/instal
 - protobuf, glog, gflags
 - IO libraries hdf5, leveldb, snappy, lmdb
 
+The first thing you may want to do is install the OS X "Command Line Tools".  To check that you have this installed (it will install if you don't have it), run the following command:
+```bash
+xcode-select --install
+```
 
 
 #### CUDA Support
@@ -197,7 +201,7 @@ ipython notebook
 ```
 This will open a window in your browser, which you can use to click on the `dream.ipynb` file.
 
-But wait! Before executing any of the code, we will need to download the Caffe model trained on the GoogleNet images since this notebook uses this particular model.  More info [here](https://github.com/BVLC/caffe/tree/master/models/bvlc_googlenet).
+But wait! Before executing any of the code, we will need to download the Caffe model trained on the GoogLeNet images since this notebook uses this particular model.  More info [here](https://github.com/BVLC/caffe/tree/master/models/bvlc_googlenet).
 
 ```bash
 cd /Users/me/code/github-repos/caffe/models/bvlc_googlenet
